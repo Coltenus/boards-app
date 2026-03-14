@@ -6,7 +6,7 @@
 
 **Boards App** — це SPA-дошка питань і відповідей, де користувачі можуть публікувати запитання, додавати відповіді та знаходити корисні рішення через обговорення й оцінювання контенту.
 
-[Звіт](https://github.com/Coltenus/boards-app) 
+[Звіт](https://docs.google.com/document/d/1bB1lCU-nFZtoRnrVnsQPUY0T0-7X45zgfSSL_Kpg29E/edit?usp=sharing) 
 
 
 
