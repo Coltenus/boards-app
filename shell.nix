@@ -5,7 +5,6 @@ pkgs.mkShell {
     nodejs_24
     sqlite
 
-    # Node native addon toolchain (for better-sqlite3)
     python3
     pkg-config
     gcc
