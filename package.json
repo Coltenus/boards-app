@@ -1,0 +1,18 @@
+{
+  "name": "lab1-fullstack",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n client,server -c green,blue \"npm:dev --workspace client\" \"npm:dev --workspace server\"",
+    "build": "npm run build --workspace client && npm run build --workspace server",
+    "lint": "npm run lint --workspace client && npm run lint --workspace server",
+    "db:init": "npm run db:init --workspace server",
+    "db:reset": "npm run db:reset --workspace server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
