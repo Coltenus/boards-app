@@ -21,6 +21,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# tests & coverage
+/client/coverage/
+/client/cypress/screenshots/
+/client/cypress/videos/
+.nyc_output/
+*.lcov
+
 # editor
 .vscode/
 .DS_Store
