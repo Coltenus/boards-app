@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import InputField from './components/input_field';
 import BoardField from './components/board';
 
@@ -88,7 +88,7 @@ export default function BoardsPage(props: BoardsPageProps) {
         }
     }
 
-    useState(() => {
+    useEffect(() => {
         fetchBoards()
     }, [])
 
